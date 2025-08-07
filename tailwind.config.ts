@@ -18,7 +18,23 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'Open Sans', 'system-ui', 'sans-serif'],
+				heading: ['Inter', 'system-ui', 'sans-serif'],
+			},
 			colors: {
+				aviation: {
+					DEFAULT: '#006CC',
+					900: '#003E50',
+					800: '#2C3E50',
+					600: '#006CC',
+					400: '#0EA5E9',
+					200: '#87CEEB',
+				},
+				safety: {
+					DEFAULT: '#FF8B35',
+					600: '#F97316',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
